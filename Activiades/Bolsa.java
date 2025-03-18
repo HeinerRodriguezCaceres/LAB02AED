@@ -12,7 +12,7 @@ public class Bolsa <T> implements Iterable <T> {
 		this.tope = tope;
 	}
 	public void add (T objeto) {
-		if(lista.size() >=tope) {
+		if(lista.size() <tope) {
 			lista.add(objeto);
 		} else {
 			throw new RuntimeException("No caben mas");

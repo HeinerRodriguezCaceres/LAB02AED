@@ -1,12 +1,12 @@
 package Activiades;
 
 public class Chocolatina {
-	private static String marca;
+	private String marca;
 	
-	public Chocolatina(String string) {
-		// TODO Auto-generated constructor stub
+	public Chocolatina(String marca) {
+		this.marca = marca;
 	}
-	public static String getMarca() {
+	public String getMarca() {
 		return marca;
 	}
 	public void setMarca(String marca) {
